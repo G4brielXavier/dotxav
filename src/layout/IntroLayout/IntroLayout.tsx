@@ -6,6 +6,8 @@ import GITHUB_ICON from '../../assets/images/icons/github.png'
 import LINKEDIN_ICON from '../../assets/images/icons/linkedin.png'
 
 export default function IntroLayout() {
+
+
     return (
         <div className={styles.il_main}>
             
@@ -16,6 +18,7 @@ export default function IntroLayout() {
                         width: "30px",
                         transform: "rotateZ(10deg)"
                     }}
+                    on_click={() => window.open("https://github.com/G4brielXavier")}
                 />
                 <ImageButton 
                     icon={LINKEDIN_ICON} 
@@ -23,6 +26,7 @@ export default function IntroLayout() {
                         width: "30px",
                         transform: "rotateZ(-10deg)"
                     }}
+                    on_click={() => window.open("https://www.linkedin.com/in/gabriel-xavier-5b64153b0/")}
                 />
             </div>
 
@@ -34,6 +38,8 @@ export default function IntroLayout() {
                 </div>
                 <p>or <b>"dotxav"</b></p>
             </div>
+
+            
 
         </div>
     )
