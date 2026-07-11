@@ -1,0 +1,41 @@
+.il_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transform: rotateZ(5deg);
+}
+
+.il_main p {
+    color: var(--tx-sub-color);
+}
+
+.box_intro_name {
+    display: flex;
+    flex-direction: row;
+}
+
+.box_intro_name h1 {
+    /* font-family: var(--book-font-family); */
+    font-size: 4rem;
+}
+
+
+
+.external_links_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+    position: relative;
+    top: -150px;
+    left: 120%;
+}
