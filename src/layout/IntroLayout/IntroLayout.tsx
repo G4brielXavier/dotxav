@@ -9,13 +9,22 @@ import ITCHIO_ICON from '../../assets/images/icons/itchio.svg'
 export default function IntroLayout() {
 
 
+    const cargos: string[] = [
+        "FullStack Developer",
+        "Rust Developer",
+        "Game Developer",
+        "Artist",
+        "Designer"
+    ]
+
+
     return (
         <div className={styles.il_main}>
             
             <div className={styles.more_info}>
                 <p>dotxavket@gmail.com</p>
                 <p>@dotxavierket</p>
-                <i>[v1.2]</i>
+                <span>[v1.3]</span>
             </div>
 
             <div className={styles.external_links_container}>
@@ -48,15 +57,20 @@ export default function IntroLayout() {
             </div>
 
             <div className={styles.info_main}>
-                <p>Hello, nice to meet you</p>
+                <p id='p_anim'>Hello, nice to meet you</p>
                 <div className={styles.box_intro_name}>
-                    <p>I'm</p>
+                    <p id='p_anim'>I'm</p>
                     <h1>Gabriel Xavier</h1>
                 </div>
-                <p>or <b>"dotxav"</b></p>
-            </div>
+                <p id='p_anim'>or <b>"dotxav"</b></p>
 
-            
+                <div className={styles.container_cargos}>
+                    {cargos.map((it, idx) => (
+                        <h1 id='cargos_text' key={idx}>{it}</h1>
+                    ))}
+                </div>
+
+            </div>
 
         </div>
     )
