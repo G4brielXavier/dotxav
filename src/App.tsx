@@ -19,7 +19,7 @@ interface ModalComponents {
 export default function App() {
 
   const [ui, setUI]         = useAtom(current_ui)
-  const [layout, setLayout] = useAtom(current_layout)
+  const [layout, _] = useAtom(current_layout)
 
   const modals: ModalComponents = {
     "explorer": <ExplorerLayout/>
