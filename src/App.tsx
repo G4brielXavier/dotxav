@@ -1,6 +1,6 @@
 
-import { useAtom } from "jotai"
-import { current_ui, current_layout } from "./stores/atoms"
+import { useAtom, useAtomValue } from "jotai"
+import { current_ui, getCurrentLayout } from "./stores/atoms"
 
 import IntroLayout from "./layout/IntroLayout"
 import ExplorerLayout from "./layout/ExplorerLayout"
@@ -19,7 +19,7 @@ interface ModalComponents {
 export default function App() {
 
   const [ui, setUI]         = useAtom(current_ui)
-  const [layout, setLayout] = useAtom(current_layout)
+  const layout = useAtomValue(getCurrentLayout)
 
   const modals: ModalComponents = {
     "explorer": <ExplorerLayout/>
