@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "atom": "^1.4.2",
+    "framer-motion": "^12.42.2",
+    "jotai": "^2.20.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },

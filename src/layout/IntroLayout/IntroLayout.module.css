@@ -9,6 +9,17 @@
 
 }
 
+.il_global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 40px 0;
+}
+
 .info_main {
     display: flex;
     flex-direction: column;
@@ -18,15 +29,13 @@
 }
 
 :global(#p_anim) {
-    animation-delay: 1s;
-    animation: init_text 2s ease;
-    animation-fill-mode: forwards;
+    opacity: 0;
+    animation: init_text 2s ease 0.5s forwards;
 }
 
 .box_intro_name h1 {
-    animation-delay: 1s;
-    animation: init_intro 2s ease;
-    animation-fill-mode: forwards;
+    opacity: 0;
+    animation: init_intro 2s ease 1s forwards;
 }
 
 .il_main p {
@@ -42,15 +51,15 @@
     font-family: var(--font-family);
     font-size: 4rem;
 
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         180deg,
         rgb(255, 255, 255) 50%,
         rgb(0, 0, 0, 0) 30%,
         rgb(255, 248, 248) 80%
-    );
+    ); */
 
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    /* -webkit-text-fill-color: transparent;
+    background-clip: text; */
 }
 
 
@@ -62,26 +71,20 @@
     gap: 20px;
 
     position: relative;
-    top: -160px;
+    top: -120px;
     left: 40%;
 }
 
 .external_links_container div:nth-child(1) {
-    animation: init_intro 1s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 1.5s;
+    animation: init_intro 0.5s ease 1.5s forwards;
 }
 
 .external_links_container div:nth-child(2) {
-    animation: init_intro 1s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation: init_intro 0.5s ease 2s forwards;
 }
 
 .external_links_container div:nth-child(3) {
-    animation: init_intro 1s ease;
-    animation-fill-mode: forwards;
-    animation-delay: 2.5s;
+    animation: init_intro 0.5s ease 2.5s forwards;
 }
 
 
@@ -92,14 +95,17 @@
     gap: 20px;
 
     position: relative;
-    top: -180px;
+    top: -150px;
     left: 35%;
+
+    z-index: 10;
 }
 
 
 .more_info p {
     font-size: 0.75rem;
     font-family: var(--code-font-family);
+    opacity: 0.8;
     animation: init_text 0.8s;
 }
 
@@ -113,6 +119,7 @@
 .more_info p:hover {
     text-decoration: underline;
     cursor: pointer;
+    opacity: 1;
 }
 
 
@@ -129,7 +136,6 @@
     height: 40px;
 
     margin-top: 20px;
-    /* background-color: rgba(0, 0, 0, 0.9); */
 }
 
 :global(#cargos_text) {
@@ -139,15 +145,17 @@
     padding: 2px 10px;
     border-radius: 3px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 400;
 
     cursor: pointer;
     transition: 0.2s;
 
+    z-index: 10;
+
 }
 
 :global(#cargos_text):hover {
-    opacity: 0.5;
+    opacity: 0.5 !important;
 }
 
 
