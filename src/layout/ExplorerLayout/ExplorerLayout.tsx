@@ -16,7 +16,7 @@ export default function ExplorerLayout() {
 
     const options: Options[] = [
         {label: "about me", dest: "about-me"},
-        // {label: "projects", dest: "projects"},
+        {label: "projects", dest: "projects"},
         // {label: "arts", dest: "arts"},
     ]
 

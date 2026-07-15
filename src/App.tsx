@@ -7,6 +7,7 @@ import ExplorerLayout from "./layout/ExplorerLayout"
 
 import SessionLayout from "./layout/SessionLayout"
 import AboutMe from "./components/AboutMe"
+import MyProjects from "./components/MyProjects"
 
 import { motion } from "framer-motion"
 
@@ -27,9 +28,9 @@ export default function App() {
 
   const layouts: ModalComponents = {
     "home"    : <IntroLayout />,
-    "about-me": <SessionLayout title="about me" content={<AboutMe />} />,
-    "projects": <SessionLayout title="projects" content={<></>} />,
-    "arts"    : <SessionLayout title="arts" content={<></>} />,
+    "about-me": <SessionLayout title="about me" content={<AboutMe />}    />,  
+    "projects": <SessionLayout title="projects" content={<MyProjects />} />,
+    "arts"    : <SessionLayout title="arts"     content={<></>}          />,
   }
 
   const UIModal = ui     ? modals[ui]      : null

@@ -1,0 +1,65 @@
+[
+    {
+        "banner": "./src/assets/images/banners/olam.png",
+        "name": "Olam",
+        "desc": "High-performance CLI for worldbuilders and storytellers to manage complex timelines and chronologies.",
+        "stacks": ["Rust"],
+        "status": "active",
+        "github": "https://github.com/G4brielXavier/Olam",
+        "website": "https://crates.io/crates/olam"
+    },
+    {
+        "banner": "./src/assets/images/banners/hova.png",
+        "name": "Hova",
+        "desc": "Hova is a Domain-Specific Language designed to describe and organize entities in a clean, readable and structured way. It lets you define your data once and automatically export it as JSON, YAML or TOML.",
+        "stacks": ["Python"],
+        "status": "ghost-town",
+        "github": "https://github.com/G4brielXavier/Hova",
+        "website": "https://hovaforge.vercel.app"
+    },
+    {
+        "banner": "./src/assets/images/banners/asto.png",
+        "name": "Asto",
+        "desc": "Asto is a small but powerfull DSL designed to help CLI engineers organize, describe, and document command-line tools - clearly and efficiently.",
+        "stacks": ["Rust"],
+        "status": "ghost-town",
+        "github": "https://github.com/G4brielXavier/Asto",
+        "website": "https://astodsl.vercel.app"
+    },
+    {
+        "banner": "pattern",
+        "name": "Emet",
+        "desc": "A lightweight file integrity and digital signature library powered by the TEQUEL hashing primitive. Fast, local-first, and designed for long-term data truth.",
+        "stacks": ["Rust"],
+        "status": "archived",
+        "github": "https://github.com/G4brielXavier/Emet",
+        "website": "https://hovaforge.vercel.app"
+    },
+    {
+        "banner": "./src/assets/images/banners/myway.png",
+        "name": "MyWay",
+        "desc": "A minimalist CLI project manager for your ideas. Built with Rust for speed and mental clarity.",
+        "stacks": ["Rust"],
+        "status": "ghost-town",
+        "github": "https://github.com/G4brielXavier/MyWayCLI",
+        "website": "https://hovaforge.vercel.app"
+    },
+    {
+        "banner": "pattern",
+        "name": "Tequel",
+        "desc": "A high-performance, 4x Loop Unrolling & Dual-Wide SIMD hash engine, built in pure Rust to understand SIMD/AVX2.",
+        "stacks": ["Rust"],
+        "status": "ghost-town",
+        "github": "https://github.com/G4brielXavier/MyWayCLI",
+        "website": "https://hovaforge.vercel.app"
+    },
+    {
+        "banner": "pattern",
+        "name": "SEAL",
+        "desc": "SEAL is a minimal writing tool. Write. Seal. Leave it untouched.",
+        "stacks": ["React", "Vite"],
+        "status": "archived",
+        "github": "https://github.com/G4brielXavier/SEAL",
+        "website": "https://sealtablets.vercel.app"
+    }
+]
