@@ -3,8 +3,6 @@ import styles from './MyProjects.module.css'
 import data from '../../data/my_projects.json'
 import { motion } from 'framer-motion'
 
-import PATTERN from '../../assets/images/banners/pattern.avif'
-
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -53,7 +51,7 @@ export default function MyProjects() {
                 >
 
                     <div className={styles.banner}>
-                        <img src={proj.banner === "pattern" ? PATTERN : proj.banner} alt="" />
+                        <img src={proj.banner === "pattern" ? "/banners/pattern.avif" : proj.banner} alt="" />
                     </div>
                     <div className={styles.stackbox}>
                         {proj.stacks.map((stack, idx) => (

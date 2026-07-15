@@ -1,6 +1,6 @@
 [
     {
-        "banner": "./src/assets/images/banners/olam.png",
+        "banner": "/banners/olam.png",
         "name": "Olam",
         "desc": "High-performance CLI for worldbuilders and storytellers to manage complex timelines and chronologies.",
         "stacks": ["Rust"],
@@ -9,7 +9,7 @@
         "website": "https://crates.io/crates/olam"
     },
     {
-        "banner": "./src/assets/images/banners/hova.png",
+        "banner": "/banners/hova.png",
         "name": "Hova",
         "desc": "Hova is a Domain-Specific Language designed to describe and organize entities in a clean, readable and structured way. It lets you define your data once and automatically export it as JSON, YAML or TOML.",
         "stacks": ["Python"],
@@ -18,7 +18,7 @@
         "website": "https://hovaforge.vercel.app"
     },
     {
-        "banner": "./src/assets/images/banners/asto.png",
+        "banner": "/banners/asto.png",
         "name": "Asto",
         "desc": "Asto is a small but powerfull DSL designed to help CLI engineers organize, describe, and document command-line tools - clearly and efficiently.",
         "stacks": ["Rust"],
@@ -36,7 +36,7 @@
         "website": "https://hovaforge.vercel.app"
     },
     {
-        "banner": "./src/assets/images/banners/myway.png",
+        "banner": "/banners/myway.png",
         "name": "MyWay",
         "desc": "A minimalist CLI project manager for your ideas. Built with Rust for speed and mental clarity.",
         "stacks": ["Rust"],
