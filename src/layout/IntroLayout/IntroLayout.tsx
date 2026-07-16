@@ -52,7 +52,7 @@ export default function IntroLayout() {
                 <div className={styles.more_info}>
                     <p>dotxavket@gmail.com</p>
                     <p>@dotxavierket</p>
-                    <span>[v1.55]</span>
+                    <span>[v1.6]</span>
                 </div>
 
                 <div className={styles.external_links_container}>

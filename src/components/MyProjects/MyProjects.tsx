@@ -16,11 +16,13 @@ const containerVariants = {
 const itemVariants = {
   hidden: { 
     opacity: 0, 
-    x: 20
+    x: 20,
+    scale: 1.05
   },
   visible: { 
     opacity: 1, 
     x: 0,
+    scale: 1,
     transition: {
       duration: 0.5,
       ease: 'easeOut',

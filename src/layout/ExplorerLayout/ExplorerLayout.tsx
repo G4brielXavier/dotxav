@@ -17,7 +17,7 @@ export default function ExplorerLayout() {
     const options: Options[] = [
         {label: "about me", dest: "about-me"},
         {label: "projects", dest: "projects"},
-        // {label: "arts", dest: "arts"},
+        {label: "arts & illustrations", dest: "arts"},
     ]
 
     function handle_select_opt(dest: string) {
