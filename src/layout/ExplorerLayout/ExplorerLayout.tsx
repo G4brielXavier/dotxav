@@ -35,7 +35,7 @@ export default function ExplorerLayout() {
 
             <div className={styles.header_main}>
                 <h1>MENU</h1>
-                <p>Chosse an option to explore.</p>
+                <p>Choose an option to explore.</p>
             </div>
 
             <div className={styles.options}>
