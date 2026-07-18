@@ -121,7 +121,7 @@ export default function App() {
                   }
               }}
 
-              onClick={() => {}}
+              onClick={() => window.open('mailto:dotxavket@gmail.com')}
 
               className="get_in_touch">
               {">> GET IN TOUCH <<"}
