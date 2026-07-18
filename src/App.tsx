@@ -99,7 +99,7 @@ export default function App() {
               </div> */}
           </motion.div>
 
-          {/* <motion.div 
+          <motion.div 
 
               initial={{ opacity: 0 }}
               animate={{ 
@@ -121,9 +121,11 @@ export default function App() {
                   }
               }}
 
+              onClick={() => {}}
+
               className="get_in_touch">
-              GET IN TOUCH
-          </motion.div> */}
+              {">> GET IN TOUCH <<"}
+          </motion.div>
 
         </div>
 

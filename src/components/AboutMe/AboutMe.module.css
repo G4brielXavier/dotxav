@@ -32,8 +32,10 @@
     align-items: left;
     gap: 10px;
 
+    font-family: var(--main-font-family);
+
     padding: 10px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     opacity: 0.9;
 
     line-height: 25px;
@@ -43,9 +45,12 @@
 
 
 :global(#tag) {
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 0px 10px;
-    border-radius: 5px;
     font-size: 0.9rem;
     font-weight: bold;
+}
+
+
+.my_info p {
+    font-size: 0.9rem;
+    font-weight: 300;
 }

@@ -13,7 +13,7 @@
     max-height: 450px;
     border-radius: 6px;
 
-    background-color: rgba(255,255, 255, 0.02);
+    /* background-color: rgba(255,255, 255, 0.02); */
 
     scrollbar-width: thin;
     scrollbar-color: #3a3a3a transparent;

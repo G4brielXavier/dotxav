@@ -50,9 +50,10 @@ export default function IntroLayout() {
             <div className={styles.il_main}>
                 
                 <div className={styles.more_info}>
+                    <p>:]</p>
                     <p>dotxavket@gmail.com</p>
                     <p>@dotxavierket</p>
-                    <span>[v1.66]</span>
+                    <span>[v1.7]</span>
                 </div>
 
                 <div className={styles.external_links_container}>
@@ -86,12 +87,12 @@ export default function IntroLayout() {
 
                 <div className={styles.info_main}>
 
-                    <p id='p_anim'>Hello, nice to meet you</p>
+                    <p id='p_anim_1'>Hello, nice to meet you</p>
                     <div className={styles.box_intro_name}>
-                        <p id='p_anim'>I'm</p>
+                        <p id='p_anim_2'>I'm</p>
                         <h1>Gabriel Xavier</h1>
                     </div>
-                    <p id='p_anim'>or <b>"dotxav"</b></p>
+                    <p id='p_anim_3'>or <b>"dotxav"</b></p>
 
                     <motion.div 
                         className={styles.container_cargos}

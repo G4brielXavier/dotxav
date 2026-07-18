@@ -11,13 +11,17 @@
     src: url(../assets/fonts/CormorantGaramond.ttf);
 }
 @font-face {
+    font-family: "Newsreader";
+    src: url(../assets/fonts/Newsreader.ttf);
+}
+@font-face {
     font-family: "MPlus";
     src: url(../assets/fonts/MPlus.ttf);
 }
 
 :root {
     --font-family: "DMSans", sans-serif;
-    --book-font-family: "CormorantGaramond";
+    --book-font-family: "Newsreader";
     --code-font-family: "JetBrainsMono";
     --second-font-family: "MPlus";
     
@@ -138,10 +142,11 @@ body {
     background-color: rgba(153, 13, 13, 0);
     border: 1px solid rgb(59, 59, 59);
     border-radius: 8px;
+    font-family: var(--code-font-family);
 
     padding: 11px 30px;
 
-    font-weight: bold;
+    font-weight: 400;
     cursor: pointer;
     transition: 0.2s;
 }

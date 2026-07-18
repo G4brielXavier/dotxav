@@ -21,11 +21,11 @@ export default function AboutMe() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.5, ease: "easeOut", delay: 0.5     }}
             >
-                <h2>Opa, tudo bom?</h2>
-                <p>Bem-vindo ao meu portfolio.</p>
-                <p>Se você veio aqui para me conhecer, está no lugar certo!</p>
-                <p>É um prazer! Meu nome é <b>Gabriel Xavier Dos Santos</b>, atualmente tenho 20 anos de idade e sou <span id='tag'>FullStack Developer</span>, <span id='tag'>Ilustrador Cristão</span>, <span id='tag'>Designer</span> e <span id='tag'>Escritor</span>.</p>
-                <p>Estou sempre buscando aprender e desenvolver coisas novas no meu nicho, que é o <span id='tag'>WORLDBUILDING</span>.</p>
+                <h2>Hey, how is it going?</h2>
+                <p>Welcome to my portfolio.</p>
+                <p>If you came here to meet me, you are in the right place!</p>
+                <p>It's a pleasure! My name is <b>Gabriel Xavier Dos Santos, currently I am 20 years old and I'm <span id='tag'>FullStack Developer</span>, <span id='tag'>Ilustrador Cristão</span>, <span id='tag'>Designer</span>, <span id='tag'>Writter</span> and <span id='tag'>Worldbuilder</span>.</b></p>
+                <p>I'm always looking to learn and design new things in my niche, which is the <span id='tag'>Worldbuilding</span>.</p>
             </motion.div>
         </div>
     )
